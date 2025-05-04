@@ -26,10 +26,10 @@ document.addEventListener("DOMContentLoaded", function(ev) {
 
     const currentUser = localStorage.getItem('logedInUser') || '';
     if (currentUser.length){
-        document.querySelector('header a .login-span').innerText = ` ${currentUser}`;
+        document.querySelector('nav .login-span').innerText = ` ${currentUser}`;
     }
 
-    document.querySelector('header a .login-span').onclick = (ev) => {
+    document.querySelector('nav .login-span').onclick = (ev) => {
         if (currentUser.length){
             let response = confirm('Deshironi te dilni nga llogaria juaj ?');
             console.log(response);
