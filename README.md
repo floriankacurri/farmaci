@@ -12,30 +12,30 @@ Struktura e organizimit te website-it
 
 Struktura e website-it është ndarë në:
 
-Faqja kryesore
-Kategoritë e produkteve
-Produktet brenda seciles kategori (ndër to, është ndërtuar vetëm faqja për kategorinë Vitamina & Suplemente)
-Detajet e produktit (ndër të cilat, është ndërtuar vetëm faqja për produktin Vitamina C 500 mg)
-Shërbimet
-Rreth nesh
-Rezervo një takim (me form dhe drag & drop)
-Login/Signup
-Karroca
-Chat
+##Faqja kryesore  
+##Kategoritë e produkteve  
+###Produktet brenda seciles kategori (ndër to, është ndërtuar vetëm faqja për kategorinë Vitamina & Suplemente)  
+####Detajet e produktit (ndër të cilat, është ndërtuar vetëm faqja për produktin Vitamina C 500 mg)  
+##Shërbimet  
+##Rreth nesh  
+##Rezervo një takim (me form dhe drag & drop)  
+##Login/Signup  
+##Karroca  
+##Chat  
 
-Folderat janë të organizuar si më poshtë:
-/HTML
-/CSS
-/Javascript
-/Media
+Folderat janë të organizuar si më poshtë:  
+/HTML  
+/CSS  
+/Javascript  
+/Media  
 
-Ndarja e detyrave sipas anëtarëve të grupit
+Ndarja e detyrave sipas anëtarëve të grupit  
 
-Antea Guga: 
-Krijoi dhe ideoi faqjet HTML dhe CSS përkatësisht për strukturat 'Rreth nesh', me integrimin e chart.js; 'Shërbimet';  'FAQ'; 'Rezervo një takim' dhe JavaScript për drag-and-drop si dhe pyetje dinamike.
+Antea Guga:  
+Krijoi dhe ideoi faqjet HTML dhe CSS përkatësisht për strukturat 'Rreth nesh', me integrimin e chart.js; 'Shërbimet';  'FAQ'; 'Rezervo një takim' dhe JavaScript për drag-and-drop si dhe pyetje dinamike.  
 
-Arlind Hajdari: 
-Realizoi krijimet e  strukturave si 'Produktet' ; 'Kategoritë e produkteve' ; 'Detajet e produkteve specifike'; 'Karta' – pë secilën ka ndërtuar HTML, CSS dhe Javascript-et përkatëse.
+Arlind Hajdari:  
+Realizoi krijimet e  strukturave si 'Produktet' ; 'Kategoritë e produkteve' ; 'Detajet e produkteve specifike'; 'Karta' – pë secilën ka ndërtuar HTML, CSS dhe Javascript-et përkatëse.  
 
-Florian Kaçurri: 
+Florian Kaçurri:  
 Projektoi dhe formuloi HTML/CSS për  'Faqen kryesore' ; 'Login/Signup' , dhe gjenerimin e sistemit të chat-it (HTML, CSS, JS).
