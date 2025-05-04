@@ -12,16 +12,16 @@ Struktura e organizimit te website-it
 
 Struktura e website-it është ndarë në:
 
-##Faqja kryesore  
-##Kategoritë e produkteve  
-###Produktet brenda seciles kategori (ndër to, është ndërtuar vetëm faqja për kategorinë Vitamina & Suplemente)  
-####Detajet e produktit (ndër të cilat, është ndërtuar vetëm faqja për produktin Vitamina C 500 mg)  
-##Shërbimet  
-##Rreth nesh  
-##Rezervo një takim (me form dhe drag & drop)  
-##Login/Signup  
-##Karroca  
-##Chat  
+## Faqja kryesore  
+## Kategoritë e produkteve  
+### Produktet brenda seciles kategori (ndër to, është ndërtuar vetëm faqja për kategorinë Vitamina & Suplemente)  
+#### Detajet e produktit (ndër të cilat, është ndërtuar vetëm faqja për produktin Vitamina C 500 mg)  
+## Shërbimet  
+## Rreth nesh  
+## Rezervo një takim (me form dhe drag & drop)  
+## Login/Signup  
+## Karroca  
+## Chat  
 
 Folderat janë të organizuar si më poshtë:  
 /HTML  
