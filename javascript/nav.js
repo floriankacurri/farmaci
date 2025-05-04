@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(ev) {
     let header = document.createElement('header');
     let body = document.querySelector('body');
 
-    header.classList.add('header');
+    //header.classList.add('header');
     header.innerHTML = `
         <a href="../html/index.html"><img src="../media/LOGOOO.png" alt="Logo-Farmacia_Jote" id="logo" style="height: 60px;"></a>
         <nav>
