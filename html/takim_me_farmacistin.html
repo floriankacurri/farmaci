@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rezervo nje takim - Farmacia jote</title>
+  <link rel="stylesheet" href="../css/takim_me_farmacistin.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="../media/LOGOOO.png" type="image/x-icon">
+  
+</head>
+<body>
+
+  <header>
+    <a href="../html/index.html"><img src="../media/LOGOOO.png" alt="Logo-Farmacia_Jote" id="logo" style="height: 60px;"></a>
+    <nav>
+      <a href="../html/index.html">Faqja Kryesore</a>
+      <a href="../html/kategorite.html">Produktet</a>
+      <a href="../html/sherbimet.html">Sherbimet</a>
+      <a href="../html/rreth_nesh.html">Rreth Nesh</a>
+      <a href="../html/na_kontaktoni.html">Na kontaktoni</a>
+      <a href="../html/takim_me_farmacistin.html">Takim me Farmacistin </a>
+      <a href="../html/login.html"><i class="fa fa-user-o" aria-hidden="true"></i> Hyr / Regjistrohu</a>
+      <a href="../html/chat_me_farmacistin.html">
+        <i class="fa fa-commenting-o"></i>
+      </a>
+      <a href="../html/karroca.html">
+        <i class="fa fa-shopping-cart"></i>
+      </a>
+    </nav>
+  </header>
+  
+  <section class="section">
+    <h2>Rezervo nje takim</h2>
+
+    <form id="appointment-form">
+      <form onsubmit="return handleFormSubmit()">
+      <label for="name">Emer Mbiemer</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="date">Data</label>
+      <input type="date" id="date" required min="">
+
+      <label for="time">Ora</label>
+      <input type="time" id="time" required min="08:00" max="23:00">
+
+      <label for="reason">Arsyeja e takimit</label>
+      <select id="reason" onchange="toggleConsultationMethod()">
+        <option value="consultation">Konsulte</option>
+        <option value="prescription">Rimbursim recete</option>
+        <option value="vaccination">Vaksinim</option>
+        <option value="other">Tjeter</option>
+      </select>
+
+      <div class="radio-group"  id="consultation-method">
+        <label>Menyra e zhvillimit te konsultes:</label><br>
+        <label><input type="radio" name="method" value="in-person" checked> Fizikisht</label>
+        <label><input type="radio" name="method" value="online"> Online</label>
+      </div>
+      
+    
+
+      <div class="checkbox-group">
+        <label><input type="checkbox" required> Pranoj kushtet dhe politikat e privatsise.</label>
+      </div>
+
+      <label>Shkarko receten (opsionale)</label>
+      <div class="upload-area" id="upload-area">
+        <p>Shkarko dhe vendos nje skedar ketu</p>
+        <p>ose kliko per te zgjedhur nje foto ose PDF</p>
+        <input type="file" id="fileElem" accept=".pdf, image/*" style="display:none">
+      </div>
+
+      <button type="submit">Rezervo takimin </button>
+      <button type="button" onclick="resetForm()">Pastro fushat</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Farmacia Jote | info@farmaciajote.com | +355 123 456 789</p>
+    <p>Na ndiqni ne: </p>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-whatsapp"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+  </footer>
+
+  <script src="../javascript/drag_drop.js"></script>
+  <script  src="../javascript/takim_me_farmacistin.js"></script>
+
+  
+</body>
+</html>

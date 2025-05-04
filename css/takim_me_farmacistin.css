@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  .logo img{
+    height: 80px;
+  }
+  
+  body {
+      background: linear-gradient(to right, #f0f4f8, #e0e7ee);
+      color: #333;
+  }
+
+  header {
+    background: #2d8f85;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .section h2 {
+    text-align: center;
+    color: #2d8f85;
+    margin-bottom: 2rem;
+  }
+
+  form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  label {
+    display: block;
+    margin: 1rem 0 0.3rem;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .radio-group,
+  .checkbox-group {
+    margin: 1rem 0;
+  }
+
+  .radio-group label,
+  .checkbox-group label {
+    font-weight: normal;
+    margin-right: 1rem;
+  }
+
+  .upload-area {
+    margin-top: 1rem;
+    padding: 2rem;
+    border: 2px dashed #2d8f85;
+    border-radius: 8px;
+    text-align: center;
+    background: #f9f9f9;
+    transition: background 0.3s;
+  }
+
+  .upload-area.dragover {
+    background: #e0f2f1;
+  }
+
+  .upload-area p {
+    margin-bottom: 0.5rem;
+  }
+
+  button {
+    background: #2d8f85;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  button:hover {
+    background: #256f6c;
+  }
+
+  footer {
+    background: #2d8f85;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+  }

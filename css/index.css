@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #2d8f85;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://wbu.edu.al/storage/871/conversions/pharmacy-featured_image.jpg') no-repeat center center/cover;
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.section {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  color: #2d8f85;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+  background: #f9f9f9;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.foto-kategori{
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.widget-container {
+  max-width: 1100px;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.widget {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background: #2d8f85;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+button {
+  background: #2d8f85;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #256f6c;
+}

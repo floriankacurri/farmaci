@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background: #f4f4f4;
+    color: #333;
+  }
+
+  header {
+    background: #2d8f85;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .product-image {
+    flex: 1 1 300px;
+    text-align: center;
+  }
+
+  .product-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .product-details {
+    flex: 1 1 300px;
+  }
+
+  .product-details h2 {
+    color: #2d8f85;
+    margin-bottom: 1rem;
+  }
+
+  .product-details p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #256f67;
+  }
+
+  .quantity {
+    margin: 1rem 0;
+  }
+
+  .quantity label {
+    margin-right: 0.5rem;
+    font-weight: bold;
+  }
+
+  .quantity input[type="number"] {
+    padding: 0.3rem;
+    width: 60px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  .btns {
+    margin-top: 1.5rem;
+  }
+
+  .btns button {
+    background-color: #2d8f85;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: background 0.3s;
+  }
+
+  .btns button:hover {
+    background-color: #256f67;
+  }
+
+  footer {
+    background: #2d8f85;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+  }

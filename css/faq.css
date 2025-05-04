@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  .logo img{
+    height: 80px;
+  }
+
+  body {
+      background: linear-gradient(to right, #f0f4f8, #e0e7ee);
+      color: #333;
+  }
+
+  header {
+    background: #2d8f85;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .section {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .section h2 {
+    color: #2d8f85;
+    margin-bottom: 1rem;
+  }
+
+  .faq-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: left;
+  }
+
+  .faq-item {
+    background: white;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .faq-question {
+    padding: 1rem;
+    background: #2d8f85;
+    color: white;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .faq-question::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+
+  .faq-item.active .faq-question::after {
+    transform: rotate(45deg);
+  }
+
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 1rem;
+    background: #f9f9f9;
+    transition: max-height 0.3s ease;
+  }
+
+  .faq-item.active .faq-answer {
+    max-height: 200px;
+    padding: 1rem;
+  }
+
+  .cta {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+
+  .cta h3 {
+    margin-bottom: 1rem;
+    color: #2d8f85;
+  }
+
+  .cta button {
+    background: #2d8f85;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  .cta button:hover {
+    background: #256f6c;
+  }
+
+  button {
+    background: #2d8f85;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    display:block;
+    margin: 0 auto;
+  }
+
+  button:hover {
+    background: #256f6c;
+  }
+
+  footer {
+    background: #2d8f85;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }

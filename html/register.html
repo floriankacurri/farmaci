@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regjistrohu - Farmacia jote</title>
+
+    <!-- Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Google font -->
+
+    <!-- Link for CSS file -->
+    <link rel="stylesheet" type="text/css" href="../css/register.css">
+	<link href="../css/header.css" rel="stylesheet">
+    <link rel="icon" href="../media/LOGOOO.png" type="image/x-icon">
+
+</head>
+<body>
+
+	<!-- Header from nav.js  -->
+
+    <div class="container" id="container">
+        <div class="form sign-up-container">
+            <form action="#">
+                <h1>Krijo nje llogari</h1>
+                <!-- icons -->
+                <div class="social-container">
+                    <a href="#" class="social">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="social">
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="social">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <span>ose perdor email-in per t'u regjistruar</span>
+
+                <div class="input-field">
+                    <i class="fa fa-user"></i>
+                    <input type="text" id="username" placeholder="Username" required>
+                </div>
+
+                <div class="input-field">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" id="email" pattern="^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$" placeholder="Email" required>
+                </div>
+
+                <div class="input-field">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" id="password" minlength="8" placeholder="Password" required>
+                </div>
+
+                <button type="submit">Regjistrohu</button>
+            </form>
+        </div>
+	
+		<div class="overlay-container">
+			<div class="overlay">
+				<h1>Mire se u riktheve!</h1>
+				<p>Per te perdorur sherbimet tona, kycu me poshte</p>
+				<img src="../media/s1.png" style="height:25rem; width:30rem; padding-top:5%;">
+				<a href="login.html"><button class="btn" id="signIn">Hyr</button></a>
+			</div>
+		</div>
+
+    </div>
+	
+	<script src="../js/nav.js"></script>
+	<script src="../js/register.js"></script>
+
+</body>
+</html>

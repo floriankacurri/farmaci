@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAQ - Farmacia jote</title>
+
+  <link rel="stylesheet" type="text/css" href="../css/faq.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="../media/LOGOOO.png" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <a href="../html/index.html"><img src="../media/LOGOOO.png" alt="Logo-Farmacia_Jote" id="logo" style="height: 60px;"></a>
+    <nav>
+      <a href="../html/index.html">Faqja Kryesore</a>
+      <a href="../html/kategorite.html">Produktet</a>
+      <a href="../html/sherbimet.html">Sherbimet</a>
+      <a href="../html/rreth_nesh.html">Rreth Nesh</a>
+      <a href="../html/na_kontaktoni.html">Na kontaktoni</a>
+      <a href="../html/takim_me_farmacistin.html">Takim me Farmacistin </a>
+      <a href="../html/login.html"><i class="fa fa-user-o" aria-hidden="true"></i> Hyr / Regjistrohu</a>
+      <a href="../html/chat_me_farmacistin.html">
+        <i class="fa fa-commenting-o"></i>
+      </a>
+      <a href="../html/karroca.html">
+        <i class="fa fa-shopping-cart"></i>
+      </a>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2>Pyetje te bera shpesh</h2>
+
+    <div class="faq-container">
+      <div class="faq-item">
+        <div class="faq-question">A me duhet nje recete per te marre medikamente prane farmacise suaj?</div>
+        <div class="faq-answer">
+          <p>Disa medikamente mund te merren lehtesisht pa recete, nderkohe disa te tjera kerkojne konsultim paraprak me mjekun perkates. Pyesni stafin tone per paqartesi qe mund te keni, ose na kontaktoni permes faqes "Na kontaktoni"</p>
+          <a href="../html/na_kontaktoni.html"><button>Na kontaktoni</button></a>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">A ofroni sherbim te dergeses ne shtepi?</div>
+        <div class="faq-answer">
+          <p>Po! Ne ofrojme dergese te shpejte dhe te besueshme ne shtepi per shumicen e produkteve brenda kufijve te qytetit.</p>
+          <a href="../html/na_kontaktoni.html"><button>Na kontaktoni</button></a>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">A mund te konsultohem online me farmacistin?</div>
+        <div class="faq-answer">
+          <p>Absolutisht. Mund te rezervoni nje konsulte online me nje nga farmacistet tane te licencuar permes faqes sone te internetit ose duke na telefonuar direkt.</p>
+          <a href="../html/takim_me_farmacistin.html"><button>Rezervo takimin tend</button></a>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Cilat metoda te pagesave pranoni?</div>
+        <div class="faq-answer">
+          <p>Ne pranojme cash,karte krediti/debiti dhe menyra te tjera te pagesave online si PayPal.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta">
+      <h3>Nuk e gjetet pergjigjen per pyetjen tuaj ketu?</h3>
+      <p>Na kontaktoni dhe ne do t'ju ndihmojme direkt.</p>
+      <br>
+      <a href="../html/na_kontaktoni.html">
+        <button>Na kontaktoni</button>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Farmacia Jote | info@farmaciajote.com | +355 123 456 789</p>
+    <p>Na ndiqni ne: </p>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-whatsapp"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+  </footer>
+
+  <script>
+    const faqs = document.querySelectorAll('.faq-item');
+    faqs.forEach(item => {
+      item.querySelector('.faq-question').addEventListener('click', () => {
+        item.classList.toggle('active');
+        faqs.forEach(other => {
+          if (other !== item) other.classList.remove('active');
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
