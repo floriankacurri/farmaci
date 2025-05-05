@@ -1,11 +1,8 @@
-
-/* Header */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+/*   font-family: Arial, sans-serif; */
 }
 
 html {
@@ -25,9 +22,9 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 nav a {
