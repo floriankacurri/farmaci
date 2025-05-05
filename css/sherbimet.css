@@ -77,10 +77,14 @@
     color: #555;
   }
 
-  footer {
+  footer {    
     background: #2d8f85;
     color: white;
     text-align: center;
     padding: 1rem;
     margin-top: 3rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
